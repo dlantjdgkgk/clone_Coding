@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Page {
+    padding: 8px 12px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    color: black;
+    font-weight: 700;
+    padding: 12px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    margin-left: 300px;
+    color: black;
+    font-size: 30px;
+    font-weight: 1000;
+}
+.Search {
+    margin-left: 700px;
+}
+.button-search {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.fa-search {
+    border: 1px solid #00b4cc;
+    background: #00b4cc;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+.icon {
+    display: flex;
+    margin-right: 200px;
+    font-size: 40px;
+}
+.icon .fa-shopping-cart {
+    margin-right: 20px;
+}
+.top_menu {
+    border-top: 1px solid #ebeef2;
+    border-bottom: 1px solid #ebeef2;
+}
+.menu {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 1000;
+    padding: 15px;
+}
+.inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+}
+.explain {
+    margin-top: 150px;
+    margin-right: 250px;
+}
+.Hello {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.login {
+    margin-top: 40px;
+}
+#UserID {
+    width: 500px;
+    height: 30px;
+    padding: 20px;
+}
+#Password {
+    width: 500px;
+    height: 30px;
+    padding: 20px;
+}
+.loginButton button {
+    margin-top: 30px;
+    width: 500px;
+    height: 50px;
+    border: 0;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 1000;
+}
+.fucntion {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
