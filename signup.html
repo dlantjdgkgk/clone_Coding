@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signup.css">
+  <script src="https://kit.fontawesome.com/f097143ccc.js"
+  crossorigin="anonymous"></script>
+  <title>회원가입 페이지</title>
+</head>
+<body>
+  <div class="Page center">
+
+    <!-- navbar -->
+    
+    <nav class="navbar">
+      <div class="logo">
+        <i class="fas fa-shipping-fast"></i>
+        <a href="http://localhost:5500/main.html">HIVER.</a>
+      </div>
+    
+      <div class="Search">
+        <input type="text" class="button-search">
+        <button type="submit"><i class="fas fa-search"></i></button>
+      </div>
+
+      <ul class="icon">
+        <a href="#"><li style="color:black"><i class="fas fa-shopping-cart"></i></li></a>
+        <a href="http://localhost:5500/login.html"><li style="color:black"><i class="fas fa-user"></i></li></a>
+      </ul>
+
+    </nav>
+
+    <!-- menu -->
+    <div class="top_menu">
+      <ul class="menu">
+        <a href=""><li>홈</li></a>
+        <a href=""><li>혜택존</li></a>
+        <a href=""><li>특가</li></a>
+        <a href=""><li>브랜드</li></a>
+        <a href=""><li>쇼핑몰</li></a>
+        <a href=""><li>럭셔리</li></a>
+        <a href=""><li>스포츠</li></a>
+        <a href=""><li>디지털</li></a>
+        <a href=""><li>라이프</li></a>
+        <a href=""><li>스토어</li></a>
+      </ul>
+    </div>
+
+    <!-- signup -->
+    <div class="signup">
+          <h1>가입을 시작합니다!</h1>
+          <p>하이버 계정 하나로  브랜디, 하이버,
+          마미 서비스를 모두 이용할 수 있어요.</p><br><br><br>
+          <div class="Id">
+            <h3>아이디*</h3>
+            <input id = "userID" type="text" placeholder="아이디 입력"><br><br>
+          </div>
+          <div class="emali">
+            <h3>이메일*</h3>
+            <input id = "useremali" type="text" placeholder="이메일 입력"><br><br>
+          </div>
+          <div class="password">
+            <h3>비밀번호*</h3>
+            <input id = "userPassword" type="text" placeholder="비밀번호 입력"><br>
+            <input id = "AgainPassword" type="text" placeholder="비밀번호 재입력"><br><br>
+          </div>
+          <div class="PhoneNumber">
+            <h3>휴대폰 번호*</h3>
+            <input id = "PhoneNumber" type="text" placeholder="010">
+            <input id = "PhoneNumber" type="text" placeholder="0000">
+            <input id = "PhoneNumber" type="text" placeholder="0000">
+            <button><b>인증요청</b></button><br><br>
+          </div>
+
+          <!-- Birhday -->
+          <div class="Birthday">
+            <h3>생년월일</h3>
+            <select id="signupYear" name="signupYear" value="년도">
+              <option value="">년도</option>
+              <option value="2021">2021</option>
+              <option value="2020">2020</option>
+              <option value="2019">2019</option>
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+              <option value="2012">2012</option>
+              <option value="2011">2011</option>
+              <option value="2010">2010</option>
+              <option value="2009">2009</option>
+              <option value="2008">2008</option>
+              <option value="2007">2007</option>
+              <option value="2006">2006</option>
+              <option value="2005">2005</option>
+              <option value="2004">2004</option>
+            </select>
+            <select id="signupMonth" name="signupMonth" value="월">
+              <option value="">월</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+              </select>
+              <select id="signupDate" name="signupDate" value="일">
+              <option value="">일</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+              <option value="10">10</option>
+              </select>
+            <p>생년월일을 입력해주시면 회원가입 쿠폰이 지급됩니다.</p><br>
+          </div>
+
+          <!-- Code -->
+          <div class="Code">
+            <h3>추천인 코드</h3>
+            <input id = "Code" type="text" placeholder="추천인 코드 입력(선택)">
+          </div>
+          <p>추천인 코드를 입력하시면, 친구초대 포인트가 지급됩니다.</p><br><br><br>
+
+          <div class="Agree">
+            <label>
+              <input type="checkbox"><span style="font-size: 18px;">
+                <b>약관 모두 동의</b></span>
+            </label><br><br>
+          </div>
+
+          <div class="Option">
+            <label>
+              <input type="checkbox" input style="margin-right:5px;">만 14세 이상입니다 
+              <span style ="color: red;">(필수)</span>
+            </label><br>
+            <label>
+              <input type="checkbox" input style="margin-right:5px;">하이버 약관 동의 
+              <span style ="color: red;;">(필수)</span><span style="margin-left: 200px;">내용보기</span>
+            </label><br>
+            <label>
+              <input type="checkbox" input style="margin-right:5px;">개인정보수집 및 이용에 대한 안내
+              <span style ="color: red;">(필수)</span><span style="margin-left: 75px;">내용보기</span>
+            </label><br>
+            <label>
+              <input type="checkbox" input style="margin-right:5px;">개인정보수집 및 이용에 대한 안내 (선택)
+              <span style="margin-left: 70px;">내용보기</span>
+            </label><br>
+            <label>
+              <input type="checkbox" input style="margin-right:5px;">이벤트/마케팅 수신 동의 (선택)
+              <span style="margin-left: 140px;">내용보기</span>
+            </label><br>
+            <label>
+              <input type="checkbox" input style="margin-right:5px;">야간 혜택 알림 수신 동의 (선택)
+              <span style="margin-left: 135px;">내용보기</span>
+            </label>
+          </div>
+
+          <div class="signupButton">
+            <button>가입하기</button>
+          </div>
+    </div>
+  
+</body>
+</html>
