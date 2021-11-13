@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.Page {
+    padding: 8px 12px;
+}
+
+.Page.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    color: black;
+    font-weight: 1000;
+    padding: 12px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.logo {
+    margin-left: 300px;
+    color: black;
+    font-size: 30px;
+    font-weight: 1000;
+}
+.Search {
+    margin-left: 700px;
+}
+.button-search {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.fa-search {
+    border: 1px solid #00b4cc;
+    background: #00b4cc;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+}
+.icon {
+    display: flex;
+    margin-right: 200px;
+    font-size: 40px;
+}
+.icon .fa-shopping-cart {
+    margin-right: 20px;
+}
+.top_menu {
+    width: 100%;
+    border-top: 1px solid #ebeef2;
+    border-bottom: 1px solid #ebeef2;
+}
+.menu {
+    margin: auto;
+    max-width: 1200px;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 1000;
+    padding: 15px;
+}
+.signup {
+    margin-top: 100px;
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    margin-bottom: 5px;
+}
+#userID {
+    width: 500px;
+    height: 30px;
+    padding: 20px;
+}
+#useremali {
+    width: 500px;
+    height: 30px;
+    padding: 20px;
+}
+#userPassword {
+    width: 500px;
+    height: 30px;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+#AgainPassword {
+    width: 500px;
+    height: 30px;
+    padding: 20px;
+}
+#PhoneNumber {
+    width: 130px;
+    height: 40px;
+    text-align: center;
+}
+.PhoneNumber button {
+    width: 93px;
+    height: 40px;
+    background-color: white;
+    font-size: 12px;
+}
+#signupYear {
+    width: 160px;
+    height: 30px;
+}
+#signupMonth {
+    width: 160px;
+    height: 30px;
+}
+#signupDate {
+    width: 160px;
+    height: 30px;
+    margin-bottom: 5px;
+}
+#Code {
+    width: 500px;
+    height: 30px;
+    padding: 20px;
+    margin-bottom: 5px;
+}
+.Option {
+    width: 100%;
+    width: 500px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+.option span {
+    display: block;
+    float: right;
+}
+.signupButton button {
+    margin-top: 30px;
+    width: 500px;
+    height: 50px;
+    border: 0;
+    outline: none;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 1000;
+}
